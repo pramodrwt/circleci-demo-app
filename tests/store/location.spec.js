@@ -12,7 +12,7 @@ describe('(Internal Module) Location', () => {
 
   describe('(Reducer)', () => {
     it('Should be a function.', () => {
-      expect(locationReducer).not.to.be.a('function')
+      expect(locationReducer).to.be.a('function')
     })
 
     it('Should initialize with a location object.', () => {
